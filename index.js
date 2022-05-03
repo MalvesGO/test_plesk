@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('deploy automatico do git vamos fazer um novo teste agora');
+  res.end('hello from deploy');
 });
 
 server.listen(port, hostname, () => {
