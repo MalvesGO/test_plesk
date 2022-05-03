@@ -6,7 +6,7 @@ const port = 5000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('novo sistema de commits e deploy automatizado by Tiago Oliveira');
+  res.end('Novo Commit a partir do dev');
 });
 
 server.listen(port, hostname, () => {
