@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('commmit de exemplo para o git\n');
+  res.end('123456');
 });
 
 server.listen(port, hostname, () => {
