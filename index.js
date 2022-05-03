@@ -5,8 +5,10 @@ const port = 5000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('novo commit pronto para ser enviado ');
+  res.json({
+    message: 'Hello World',
+    status: true
+  })
 });
 
 server.listen(port, hostname, () => {
